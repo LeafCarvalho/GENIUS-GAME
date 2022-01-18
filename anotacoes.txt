@@ -1,0 +1,2 @@
+- grid-gap está obsoleta, verificar qual substitui;
+- Preciso verificar como alinhar centralmente o jogo;
