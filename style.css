@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(201, 201, 238);
+}
+
+.theGame{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
