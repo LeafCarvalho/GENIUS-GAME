@@ -18,12 +18,10 @@ body{
 .theGame{
     background-color: rgb(43, 43, 43);
     display: grid;
-    grid-template-areas: 'green red'
-    'yellow blue';
+    grid-template-areas: 'VERDE VERMELHO'
+    'AMARELO AZUL';
     row-gap: 10px;
     column-gap: 10px;
-    align-items: center;
-    align-content: center;
     border: 1px solid #ffffff;
     height: 550px;
     width: 550px;
@@ -32,17 +30,29 @@ body{
 }
 
 .green{
+    grid-area: VERDE;
     background-color: green;
+    border-top-left-radius: 100%;
 }
 
 .red{
+    grid-area: VERMELHO;
     background-color: red;
+    border-top-right-radius: 100%;
 }
 
 .yellow{
+    grid-area: AMARELO;
     background-color: yellow;
+    border-bottom-left-radius: 100%;
 }
 
 .blue{
+    grid-area: AZUL;
     background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.interactive{
+    opacity: 0.5;
 }
